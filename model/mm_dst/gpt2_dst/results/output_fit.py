@@ -8,8 +8,8 @@ def convert_bart(line):
     return line
 
 if __name__ == "__main__":
-    input_f = "bart_test_predicted.txt"
-    output_f = "bart_test_out.txt"
+    input_f = "simmc2_dials_dstc10_teststd_public_predicted.txt"
+    output_f = "simmc2_dials_dstc10_teststd_public_predicted-1.txt"
     lines = open(input_f,"r",encoding="utf8").readlines()
     output_lines = []
     for line in lines:
